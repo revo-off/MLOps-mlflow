@@ -1,26 +1,16 @@
-# Python
+# Python & Environnement
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
 .venv/
-env/
-venv/
-ENV/
-
-# MLflow local tracking & storage
-mlruns/
-.trash/
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Environment
 .env
 
+# MLflow
+mlartifacts/
+mlruns/
+
+# Tests
+.pytest_cache/
+
 # IDE
-.idea/
 .vscode/
+.idea/
